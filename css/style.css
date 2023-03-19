@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Gasalt-Black';
+    src: url(Gasalt-Black.ttf);
+    font-family: 'Gasalt-Regular';
+    src: url(Gasalt-Regular.ttf);
+    font-family: 'Gasalt-Thin';
+    src: url(Gasalt-Thin.ttf);
+}
+body{
+    font-family:'Gasalt-Regular';
+    background-color: rgb(139, 139, 139);
+}
+body h1{
+    font-family: 'Gasalt-Black';
+}
+.container {
+  padding: 100px;
+  margin-inline: 250px ;
+  margin-top: 250px;
+  margin-bottom: 250px;
+  background-color: rgb(255, 255, 255);  
+  font-family: 'Gasalt-Black';
+}
+.profile-picture{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-inline: 500px ;
+  
+}
+.social-icon{
+  display: flex;
+  position: relative;
+  width: 30px;
+  height: 35px; 
+  padding-bottom: 1px;
+  padding-inline-start: 2px;
+  padding-inline-end: 30%;
+  padding-top: 10px;
+
+}
+.bio{
+  margin-inline: 100px ;
+  text-align: center;
+  font-family: 'Gasalt-Regular';
+}
+.name{
+  display: center;
+  position: relative;
+  padding-inline-start: 35%;
+  padding-inline-end: 5%;
+}
+.social-link {
+  display: inline-block;
+  padding: 10px;
+  /* background-color: #4267B2;
+  color: #fff; */
+  text-decoration: none;
+  border-radius: 100px;
+  position: relative;
+  margin-left: 37%;
+}
+.social-icon{
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  margin-right: 250px;
+}
+.social-text {
+  position:absolute;
+  text-align: justify;
+  top: 50px;
+  transform: translateY(-50%);
+  left: 70px;
+}
+.social-link:hover {
+  background-color: #4267B2;
+  color: #ffffff;
+  border: 0px solid #4267B2;
+}
+/* .social-link:hover .social-icon {
+  filter: grayscale(100%);
+} */
+
+/* .social-link:hover .social-text {
+  color: #333;
+} */
