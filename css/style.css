@@ -70,6 +70,7 @@ body{
   top: 12px;
   transform: translateY(-50%);
   left: 50px;
+  font-family: Gasalt-Thin;
 }
 .social-link:hover {
   background-color: #4267B2;
